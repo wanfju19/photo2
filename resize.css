@@ -1,0 +1,86 @@
+.imageList .onePhoto {
+       margin:3px;
+       display:inline-table; 
+       vertical-align:middle; 
+       text-align:center;
+       border:solid 1px grey;
+       position:relative;
+       height:200px;
+       width:200px;
+       float:left;
+       padding:3px;
+       z-index:2;
+}
+
+.imageList .onePhoto  img {
+       display:inline-table; 
+       max-width:196px;
+       max-height: 196px;
+       vertical-align: middle;
+}
+
+.imageList {
+       width:800px;height:300px;border:solid 1px black;overflow-y: scroll;    
+ }   
+
+a.DeletePhoto {
+    display:block;
+    zborder: solid 1px #000;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin: 2px;
+    zbackground-color: #FFFFFF;
+    width: 22px;
+    height: 22px;
+    font-size: 0px;
+    background-image: url(/feed/_images/closePhoto.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    cursor: pointer;
+    background-size: 22px 22px;
+    background-repeat: no-repeat;
+}
+
+a.DeleteButton:hover {
+    background-image: url(/feed/_images/closePhoto.png);
+}
+
+a.RotateButtonLeft {
+    display: block;
+    zborder: solid 1px #000;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin: 2px;
+    zbackground-color: #FFFFFF;
+    width: 26px;
+    height: 26px;
+    font-size: 0px;
+    background-image: url(/feed/_images/rotateLeft.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    cursor: pointer;
+    background-size: 26px 26px;
+    background-repeat: no-repeat;
+}
+
+
+a.RotateButtonRight {
+    display: block;
+    zborder: solid 1px #000;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin: 2px;
+    zbackground-color: #FFFFFF;
+    width: 26px;
+    height: 26px;
+    font-size: 0px;
+    background-image: url(/feed/_images/rotateRight.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    cursor: pointer;
+    background-size: 26px 26px;
+    background-repeat: no-repeat;    
+}
