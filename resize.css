@@ -34,7 +34,7 @@ a.DeletePhoto {
     width: 22px;
     height: 22px;
     font-size: 0px;
-    background-image: url(/feed/_images/closePhoto.png);
+    background-image: url(closePhoto.png);
     background-repeat: no-repeat;
     background-position: left top;
     cursor: pointer;
@@ -43,7 +43,7 @@ a.DeletePhoto {
 }
 
 a.DeleteButton:hover {
-    background-image: url(/feed/_images/closePhoto.png);
+    background-image: url(closePhoto.png);
 }
 
 a.RotateButtonLeft {
@@ -57,7 +57,7 @@ a.RotateButtonLeft {
     width: 26px;
     height: 26px;
     font-size: 0px;
-    background-image: url(/feed/_images/rotateLeft.png);
+    background-image: url(rotateLeft.png);
     background-repeat: no-repeat;
     background-position: left top;
     cursor: pointer;
@@ -77,7 +77,7 @@ a.RotateButtonRight {
     width: 26px;
     height: 26px;
     font-size: 0px;
-    background-image: url(/feed/_images/rotateRight.png);
+    background-image: url(rotateRight.png);
     background-repeat: no-repeat;
     background-position: left top;
     cursor: pointer;
