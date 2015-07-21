@@ -20,8 +20,4 @@ foreach ($_POST AS $key => $value) {
 
 
 
- //move_uploaded_file($_SERVER["DOCUMENT_ROOT"] . "/groogr/test/photo1/a1.jpg", $_POST["image0"]);
-
- //file_put_contents($_SERVER["DOCUMENT_ROOT"] . "/groogr/" . $photodir . $tfilename . ".jpg", file_get_contents($_POST[$key]));
-
   
