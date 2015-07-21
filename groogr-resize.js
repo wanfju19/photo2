@@ -140,7 +140,7 @@ var GroogrResizeImage = function(container,imagelist,filebutton) {
             $( document ).delegate( "#" +  imagelist + " .onePhoto", "mouseover", function(e) {
                if ($(this).find(".DeletePhoto").length===0) {
                    a=$(this);
-                   $.get("/feed/rotatebutton.html",function(data){
+                   $.get("rotatebutton.html",function(data){
                        a.append(data);
                    });
                }
