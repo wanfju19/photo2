@@ -1,5 +1,4 @@
 # photo2
-photo resize
 html 5 to resize,rotate photo
 
 
