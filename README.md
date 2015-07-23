@@ -4,4 +4,5 @@ html 5 to resize,rotate photo. This is not a big library you can use directly as
 The reason I develop this is I found many perfect file upload library is too big and I can not apply those library in my application.
 
 
+
 <a href='http://web-wanfju19.rhcloud.com/photo2/index.html'>demo</a>
